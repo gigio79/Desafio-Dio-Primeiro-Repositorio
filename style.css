@@ -1,0 +1,63 @@
+
+        #header {
+            background-color: rgb(226, 181, 164);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Hubballi', cursive;
+        }
+
+        #nameAndTitle {
+            background-color: white;
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+
+        #nameAndTitle h1,
+        h2,
+        h3 {
+            margin: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-transform: uppercase;
+            margin-left: 1%;
+        }
+
+        #list1 {
+            list-style-type: none;
+        }
+
+        #list1 i {
+            width: 30px;
+            color: rgb(226, 181, 164);
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-column-gap: 20px;
+        }
+
+        #sidebar,
+        #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .card h3{
+            font-family: "hubballi", cursive;
+        }
+        .card {
+            font-family: Arial, Helvetica, sans-serif;
+            border:1px solid gray;
+            border-radius:15px;
+            padding: 20px;
+            
+
+
+        }
+    
